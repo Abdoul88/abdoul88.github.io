@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&display=swap');
+body{
+    margin: 10px 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap:;
+    justify-content: space-between;
+}
+nav h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+nav.onglets{
+    margin-top: 35px;
+}
+nav .onglets a {
+    text-decoration: none;
+    color: darkgray;
+    margin-right: 30px;
+}
+
+nav .onglets a:hover {
+    text-decoration: underline;
+    color: brown;
+    margin-right: 30px;
+}
+
+.articles{
+    margin-top: 30px;
+}
+.articles .articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+.articles .articles .left img{
+    height: 300px;
+    width: 500px;
+}
+.articles .articles .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+.articles .articles .right p.date{
+    color: darkgoldenrod;
+}
+.articles .articles .right p.description{
+    color: black;
+}
+@media screen and (max-width:640px){
+    body{
+        margin: 10px 20px;
+    }
+    nav .onglets{
+        margin-top: -10px;
+    }
+}
+    .articles .articles.left img{
+
+        height: 100%
+        width: 100%
+    }
+
+    .articles .articles.right{
+
+       margin: 0;
+       max-width: 100%
+}
